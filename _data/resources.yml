@@ -1,0 +1,10 @@
+docs_list_title: nav_resources
+docs:
+
+- title: CivicActions Handbook
+  url: /handbook
+  icon: <i class="fa fa-heart" aria-hidden="true"></i>
+
+- title: Digital Government Services Guide
+  url: /guide
+  icon: <i class="fa fa-book" aria-hidden="true"></i>

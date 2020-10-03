@@ -1,0 +1,30 @@
+[
+  
+    {
+
+      "title"    : "Hello world",
+      "url"      : "/thinktank/news/hello-world",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "2020-10-02 08:00:00 -0700"
+
+    },
+  
+  
+  {
+
+    "title"    : "Luke Fretwell",
+    "url"      : "/people/luke-fretwell",
+    "category" : "",
+    "name"     : "Luke Fretwell",
+    "bio"      : "Luke Fretwell leads research and development at CivicActions Think Tank.\n"
+
+  },
+  
+  
+  
+  
+  
+  
+
+]

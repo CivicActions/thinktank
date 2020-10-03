@@ -1,0 +1,84 @@
+<footer>
+    <div class="container edit">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="{{ site.repo }}edit/{{ site.branch }}/{{ page.path }}" class="btn btn-outline-secondary" role="button"><i class="fa fa-heart" aria-hidden="true"></i> Make this page better</a></p>
+            </div>
+        </div>
+    </div>
+<!--    
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Join Our Team</h2>
+                    <p><a class="btn" href="{{ site.baseurl }}/careers">Careers &raquo;</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Hire Us</h2>
+                    <p><a class="btn" href="{{ site.baseurl }}/contact">Contact &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>
+                        {% if site.slack %}
+                        <a href="{{ site.slack }}"><i class="fab fa-slack"></i></a>
+                        {% endif %}
+                        {% if site.linkedin %}
+                        <a href="{{ site.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                        {% if site.facebook %}
+                        <a href="{{ site.facebook }}"><i class="fab fa-facebook"></i></a>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        {% if site.rss %}
+                        <a href="{{ site.baseurl }}/{{ site.rss }}"><i class="fas fa-rss"></i></a>
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>About</h3>
+                        <ul>
+                            {% for item in site.data.about.docs %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Work</h3>
+                        <ul>
+                            {% for item in site.data.work.docs %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Etc</h3>
+                        <ul>
+                            {% for item in site.data.etc.docs %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+</body>
+
+</html>

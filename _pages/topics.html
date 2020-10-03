@@ -1,0 +1,24 @@
+---
+layout: default
+title: Topics
+description: "Digital government services expertise."
+excerpt: "Digital government services expertise."
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for page in site.topics %}
+                {% if page.title != 'Template' %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas {{ page.icon }}"></i></span></a>
+                        <h5 class="h5"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h5>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

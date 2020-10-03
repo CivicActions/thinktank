@@ -1,0 +1,82 @@
+docs_list_title: cx
+docs:
+
+- title: Introduction
+  url: /introduction
+  icon: <i class="fa fa-sun" aria-hidden="true"></i>
+
+- title: Satisfaction
+  url: /satisfaction
+  icon: <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+
+- title: Executive orders / law
+  url: /orders-law
+  icon: <i class="fas fa-certificate"></i>
+
+- title: Definitions
+  url: /definitions
+  icon: <i class="fas fa-bars"></i>
+
+- title: Goals
+  url: /goals
+  icon: <i class="fas fa-bullseye"></i>
+
+- title: Barriers
+  url: /barriers
+  icon: <i class="fas fa-times-circle"></i>
+
+- title: Getting started
+  url: /getting-started
+  icon: <i class="fas fa-project-diagram"></i>
+
+- title: Plays
+  url: /plays
+  icon: <i class="fas fa-list-ol"></i>>
+
+- title: Services
+  url: /services
+  icon: <i class="fas fa-cogs"></i>
+
+- title: Process
+  url: /process
+  icon: <i class="fas fa-tasks"></i>
+
+- title: Buying
+  url: /buying
+  icon: <i class="far fa-credit-card"></i>
+
+- title: Progress
+  url: /progress
+  icon: <i class="fas fa-chart-line"></i>
+
+- title: Roles
+  url: /roles
+  icon: <i class="fas fa-user"></i>
+
+- title: Tools
+  url: /tools
+  icon: <i class="fas fa-toolbox"></i>
+
+- title: Events
+  url: /events
+  icon: <i class="fa fa-calendar" aria-hidden="true"></i>
+
+- title: Communities
+  url: /communities
+  icon: <i class="fas fa-user-friends"></i>
+
+- title: Organizations
+  url: /organizations
+  icon: <i class="fas fa-atom"></i>
+
+- title: Awards
+  url: /awards
+  icon: <i class="fas fa-award"></i>
+
+- title: Glossary
+  url: /glossary
+  icon: <i class="fas fa-file-alt"></i>
+
+- title: References
+  url: /references
+  icon: <i class="far fa-file-alt"></i>
